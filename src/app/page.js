@@ -1,4 +1,4 @@
-"use client";
+"use client"; {/* to use chakraui */}
 import { Button, Container, Text } from "@/app/chakra";
 import Navbar from "./components/Navbar";
 import Search from "./components/Search";
