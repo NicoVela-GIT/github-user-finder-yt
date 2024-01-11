@@ -4,7 +4,7 @@ import Repos from "./Repos";
 const UserProfile = ({ userData }) => {
 	return (
 		<>
-			<Flex my={16} border={"2px solid"} borderColor={"linkedin.500"} borderRadius={4} padding={8}> {/* puts the data on top of eachother on the left side below the search bar */}
+			<Flex my={16} border={"2px solid"} borderColor={"linkedin.500"} borderRadius={4} padding={8}> {/* puts the data on top of one another on the left side below the search bar */}
 				<VStack gap={5}>
 					<Avatar size={"2xl"} name={userData.name} src={userData.avatar_url} />
 					<Button colorScheme='linkedin'>
